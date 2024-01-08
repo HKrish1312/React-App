@@ -1,0 +1,19 @@
+.product
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: calc(10%/4);
+}
+
+body{
+    background-color: black;
+}
+
+.product_card
+{
+    height: 200px;
+    width: 200px;
+    background-color:grey;
+}
